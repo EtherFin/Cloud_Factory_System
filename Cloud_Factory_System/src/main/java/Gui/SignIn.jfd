@@ -1,0 +1,85 @@
+JFDML JFormDesigner: "8.1.0.0.283" Java: "17.0.6" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq l {par t:::p {seq t {space :::x, comp button1:::p::p, space :p:37:p, comp button2:::p::p}, seq l {space :p:29:p, par l:::p {seq {comp label7:::p::p, space s:::p, comp formattedTextField5::::260:x}, seq {comp label6:::p::p, space s:::p, comp formattedTextField4::::260:x}, seq {comp label5:::p::p, space :p:31:p, comp radioButton1:::p::p, space :p:56:p, comp radioButton2:::p::p}, seq {comp label4:::p::p, space s:::p, comp formattedTextField3::::260:x}, seq {comp label3:::p::p, space s:::p, comp formattedTextField2::::260:x}, seq {comp label2:::p::p, space s:::p, comp passwordField2:::::x}, seq {comp label1:::p::p, space s:::p, comp formattedTextField1::::260:x}}}}, space ::35:x}}"
+			"$verticalGroup": "par l {seq l {space :p:19:p, par b {comp label1::b:p::p, comp formattedTextField1::b:p::p}, space s:::p, par b {comp label2::b:p::p, comp passwordField2::b:p::p}, space s:::p, par b {comp label3::b:p::p, comp formattedTextField2::b:p::p}, space s:::p, par b {comp label4::b:p::p, comp formattedTextField3::b:p::p}, space s:::p, par b {comp label5::b:p::p, comp radioButton1::b:p::p, comp radioButton2::b:p::p}, space s:::p, par b {comp label6::b:p::p, comp formattedTextField4::b:p::p}, space s:::p, par b {comp label7::b:p::p, comp formattedTextField5::b:p::p}, space ::50:x, par b {comp button1::b:p::p, comp button2::b:p::p}, space :p:16:p}}"
+		} ) {
+			name: "this"
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label1"
+				"text": "登陆账号"
+				"font": new java.awt.Font( "微软雅黑", 0, 14 )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label2"
+				"text": "登录密码"
+				"font": new java.awt.Font( "微软雅黑", 0, 14 )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label3"
+				"text": "真实姓名"
+				"font": new java.awt.Font( "微软雅黑", 0, 14 )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label4"
+				"text": "联系方式"
+				"font": new java.awt.Font( "微软雅黑", 0, 14 )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label5"
+				"text": "注册方式"
+				"font": new java.awt.Font( "微软雅黑", 0, 14 )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label6"
+				"text": "工厂名称"
+				"font": new java.awt.Font( "微软雅黑", 0, 14 )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label7"
+				"text": "工厂简介"
+				"font": new java.awt.Font( "微软雅黑", 0, 14 )
+			} )
+			add( new FormComponent( "javax.swing.JPasswordField" ) {
+				name: "passwordField2"
+			} )
+			add( new FormComponent( "javax.swing.JRadioButton" ) {
+				name: "radioButton1"
+				"text": "云工厂"
+			} )
+			add( new FormComponent( "javax.swing.JRadioButton" ) {
+				name: "radioButton2"
+				"text": "经销商"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button1"
+				"text": "确定"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button2"
+				"text": "返回"
+			} )
+			add( new FormComponent( "javax.swing.JFormattedTextField" ) {
+				name: "formattedTextField1"
+			} )
+			add( new FormComponent( "javax.swing.JFormattedTextField" ) {
+				name: "formattedTextField2"
+			} )
+			add( new FormComponent( "javax.swing.JFormattedTextField" ) {
+				name: "formattedTextField3"
+			} )
+			add( new FormComponent( "javax.swing.JFormattedTextField" ) {
+				name: "formattedTextField4"
+			} )
+			add( new FormComponent( "javax.swing.JFormattedTextField" ) {
+				name: "formattedTextField5"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 400, 455 )
+		} )
+	}
+}

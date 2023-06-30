@@ -1,0 +1,9 @@
+{"type":"I类","name":"q","number":"PNO76882028","state":"关闭","rentState":"已被出租","Specification":"qqq","description":"qqq","factories":["4"]}
+{"type":"II类","name":"qw","number":"PNO87087553","state":"关闭","rentState":"已被出租","Specification":"qwqwqw","description":"qwqwqw","factories":["4"]}
+{"type":"I类","name":"hhh","number":"PNO28240622","state":"开启","rentState":"已被出租","Specification":"hhhhhhh","description":"hhhhhhh","factories":["343434"]}
+{"type":"I类","name":"22","number":"PNO69453716","state":"关闭","rentState":"工厂设备","Specification":"22","description":"22","factories":["4"]}
+{"type":"VV类","name":"45454545","number":"PNO85179109","state":"开启","rentState":"工厂设备","Specification":"45454545","description":"4545454545","factories":["6666"]}
+{"type":"VV类","name":"5555555","number":"PNO60868960","state":"开启","rentState":"未被出租","Specification":"55555555555","description":"55555555555","factories":[]}
+{"type":"II类","name":"67666666","number":"PNO94653859","state":"开启","rentState":"未被出租","Specification":"676666666666","description":"6788888888","factories":[]}
+{"type":"IIII类","name":"78910","number":"PNO24528267","state":"关闭","rentState":"未被出租","Specification":"78910","description":"78910","factories":[]}
+{"type":"IIII类","name":"345678","number":"PNO27226252","state":"关闭","rentState":"未被租用","Specification":"345678","description":"345678","factories":[]}

@@ -1,0 +1,46 @@
+JFDML JFormDesigner: "8.1.0.0.283" Java: "17.0.6" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq t {space :p:72:p, comp button1:::p::p, space ::107:x, comp button2:::p::p, space :p:63:p}, seq {par l {seq l {space :p:58:p, par l:::p {comp label2::::36:x, comp label3::::36:x}, space :::p, par l:::p {comp passwordField2::::259:x, comp formattedTextField1::::259:x}}, seq l {space :p:127:p, comp label1:::p::p}}, space ::39:x}}"
+			"$verticalGroup": "par l {seq l {space :::p, comp label1:::p:63:p, space u:::p, par b {comp label2::b:p:23:p, comp formattedTextField1::b:p::p}, space u:::p, par b {comp label3::b:p:25:p, comp passwordField2::b:p::p}, space ::25:x, par b {comp button1::b:p::p, comp button2::b:p::p}, space :p:16:p}}"
+		} ) {
+			name: "this"
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label1"
+				"text": "云平台制造"
+				"font": new java.awt.Font( "微软雅黑", 0, 28 )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label2"
+				"text": "账号"
+				"font": new java.awt.Font( "Microsoft YaHei UI", 0, 14 )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label3"
+				"text": "密码"
+				"font": new java.awt.Font( "Microsoft YaHei UI", 0, 14 )
+			} )
+			add( new FormComponent( "javax.swing.JPasswordField" ) {
+				name: "passwordField2"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button1"
+				"text": "登录"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button1MouseClicked", true ) )
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button2"
+				"text": "注册"
+			} )
+			add( new FormComponent( "javax.swing.JFormattedTextField" ) {
+				name: "formattedTextField1"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 400, 255 )
+		} )
+	}
+}
